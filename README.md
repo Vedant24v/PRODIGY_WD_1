@@ -1,5 +1,5 @@
 # PRODIGY_WD_1
-Respnsive Landing Page
+
 ### 🚀 Pokémon Journeys Landing Page
 
 A premium, high-performance landing page dedicated to the world of Pokémon, featuring modern web aesthetics like **Glassmorphism**, **Glitch effects**, and **Interactive animations**. This project was developed as part of a Web Development internship task.
@@ -34,36 +34,5 @@ A premium, high-performance landing page dedicated to the world of Pokémon, fea
 
 ---
 
-## 📂 Project Structure
-
-```text
-├── index.html       # Main landing page
-├── style.css        # Advanced styling and animations
-├── script.js       # Interactive UI logic
-├── seasons.html     # Seasonal Pokémon breakdown
-├── review.html      # User feedback and review form
-└── Images/          # Asset folder containing Pikachu, Raichu, etc.
-
-```
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/YourUsername/Pokemon-Landing-Page.git
-
-```
-
-
-2. **Open the project:**
-Simply double-click `index.html` to view the site in your preferred browser.
-
----
-
-## 📜 License
-
 This project is part of an internship task for **Prodigy Infotech**. All rights reserved © 2025 Vedant Vyawhare.
 
-Would you like me to add a **Live Demo link** or a **Shields.io badge** section to this README?
