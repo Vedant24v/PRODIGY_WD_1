@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Seasons</title>
+
+
+     <!---Linking awesome font------->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet"> <!---/************font-family: 'Bruno Ace SC', cursive;----->
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Quicksand:wght@600&display=swap" rel="stylesheet"><!-- NOTE: font-family: 'Quicksand', sans-serif; -->
+ 
+ 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Quicksand', sans-serif;
+            background-color: #fff;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #111;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            padding: 10px;
+            transition: background-color 0.5s;
+        }
+
+        .season {
+            width: 200px;
+            height: 270px;
+            background-color: #fff;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 10px #ea1538;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .season:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ea1538;
+        }
+
+        /* Block Image Insertion */
+        .spring {
+            background-color: #ea1538;
+        }
+
+        .summer {
+            background-color: #ea1538;
+        }
+
+        .autumn {
+            background-color: #ea1538;
+        }
+
+        .winter {
+            background-color: #ea1538;
+        }
+
+        /* Image styling */
+
+        img {
+            height: 100px;
+            width: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pokémon Seasons</h1>
+    </header>
+
+    <section>
+        <div class="season spring">
+            <h2><b>Spring</b></h2>
+            <img src="pikachu.jpg" alt="Spring Pokémon">
+            <p>Discover new Pokémon in the vibrant spring season.</p>
+        </div>
+
+        <div class="season summer">
+            <h2>Summer</h2>
+            <img src="squrtle.jpg" alt="Summer Pokémon">
+            <p>Cool off with water-type Pokémon in the summer heat.</p>
+        </div>
+
+        <div class="season autumn">
+            <h2>Autumn</h2>
+            <img src="ball.jpg" alt="Autumn Pokémon">
+            <p>Witness the beauty of changing leaves and rare Pokémon in autumn.</p>
+        </div>
+
+        <div class="season winter">
+            <h2>Winter</h2>
+            <img src="riachu.jpg" alt="Winter Pokémon">
+            <p>Brave the cold and catch ice-type Pokémon in the winter wonderland.</p>
+        </div>
+
+    </section>
+
+
+    
+
+</body>
+</html>
